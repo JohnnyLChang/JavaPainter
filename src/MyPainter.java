@@ -1,6 +1,9 @@
 import java.awt.BorderLayout;
 <<<<<<< HEAD
+<<<<<<< HEAD
 import java.awt.Color;
+=======
+>>>>>>> 4737168... painter project initi
 =======
 >>>>>>> 4737168... painter project initi
 import java.awt.Container;
@@ -29,10 +32,16 @@ public class MyPainter extends JFrame implements ActionListener {
 	private JMenu jMenu[];
 	private int i, j;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	private JPanel contentPanel;
 	private JCheckBoxMenuItem jCheckBoxMenuItem[] = new JCheckBoxMenuItem[4];
 	private static final Logger log = LogManager.getLogger(MyPainter.class);
 	public MyPaintSetting setting;
+=======
+	private JPanel contentPane;
+	private JCheckBoxMenuItem jCheckBoxMenuItem[] = new JCheckBoxMenuItem[4];
+	private static final Logger log = LogManager.getLogger(MyPainter.class);
+>>>>>>> 4737168... painter project initi
 =======
 	private JPanel contentPane;
 	private JCheckBoxMenuItem jCheckBoxMenuItem[] = new JCheckBoxMenuItem[4];
@@ -58,6 +67,7 @@ public class MyPainter extends JFrame implements ActionListener {
 	/**
 	 * Create the frame.
 	 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 	public MyPainter() {		
 		/*JFrame functions*/
@@ -87,6 +97,10 @@ public class MyPainter extends JFrame implements ActionListener {
 	public MyPainter() {
 		log.info("MyPainter start >>>");
 >>>>>>> 4737168... painter project initi
+=======
+	public MyPainter() {
+		log.info("MyPainter start >>>");
+>>>>>>> 4737168... painter project initi
 		JMenuBar bar = new JMenuBar();
 		jMenu = new JMenu[menuBar.length];
 		for (i = 0; i < menuBar.length; i++) {
@@ -101,7 +115,10 @@ public class MyPainter extends JFrame implements ActionListener {
 				if (i == 0 && j == 4 || i == 1 && j == 2)
 					jMenu[i].addSeparator();
 <<<<<<< HEAD
+<<<<<<< HEAD
 				log.info("add menu item {}", menuItem[i][j]);
+=======
+>>>>>>> 4737168... painter project initi
 =======
 >>>>>>> 4737168... painter project initi
 				jMenuItem[i][j] = new JMenuItem(menuItem[i][j].split("\\|")[0]);
@@ -115,8 +132,11 @@ public class MyPainter extends JFrame implements ActionListener {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 		return bar;
 =======
+=======
+>>>>>>> 4737168... painter project initi
 
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 600, 600);
@@ -126,6 +146,9 @@ public class MyPainter extends JFrame implements ActionListener {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		contentPane.setLayout(new BorderLayout(0, 0));
 		setContentPane(contentPane);
+<<<<<<< HEAD
+>>>>>>> 4737168... painter project initi
+=======
 >>>>>>> 4737168... painter project initi
 	}
 
