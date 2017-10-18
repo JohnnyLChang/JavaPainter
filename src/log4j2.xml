@@ -2,15 +2,7 @@
 <Configuration status="WARN">
 	<Appenders>
 		<Console name="Console" target="SYSTEM_OUT">
-<<<<<<< HEAD
-<<<<<<< HEAD
 			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t][%M] %-5level %logger{36} - %msg%n" />
-=======
-			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
->>>>>>> 4737168... painter project initi
-=======
-			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
->>>>>>> 4737168... painter project initi
 		</Console>
 	</Appenders>
 	<Loggers>
