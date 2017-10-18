@@ -1,11 +1,5 @@
 import java.awt.BorderLayout;
-<<<<<<< HEAD
-<<<<<<< HEAD
 import java.awt.Color;
-=======
->>>>>>> 4737168... painter project initi
-=======
->>>>>>> 4737168... painter project initi
 import java.awt.Container;
 import java.awt.EventQueue;
 import java.awt.event.ActionEvent;
@@ -31,22 +25,10 @@ public class MyPainter extends JFrame implements ActionListener {
 	private JMenuItem jMenuItem[][] = new JMenuItem[4][5];
 	private JMenu jMenu[];
 	private int i, j;
-<<<<<<< HEAD
-<<<<<<< HEAD
 	private JPanel contentPanel;
 	private JCheckBoxMenuItem jCheckBoxMenuItem[] = new JCheckBoxMenuItem[4];
 	private static final Logger log = LogManager.getLogger(MyPainter.class);
 	public MyPaintSetting setting;
-=======
-	private JPanel contentPane;
-	private JCheckBoxMenuItem jCheckBoxMenuItem[] = new JCheckBoxMenuItem[4];
-	private static final Logger log = LogManager.getLogger(MyPainter.class);
->>>>>>> 4737168... painter project initi
-=======
-	private JPanel contentPane;
-	private JCheckBoxMenuItem jCheckBoxMenuItem[] = new JCheckBoxMenuItem[4];
-	private static final Logger log = LogManager.getLogger(MyPainter.class);
->>>>>>> 4737168... painter project initi
 
 	/**
 	 * Launch the application.
@@ -67,8 +49,6 @@ public class MyPainter extends JFrame implements ActionListener {
 	/**
 	 * Create the frame.
 	 */
-<<<<<<< HEAD
-<<<<<<< HEAD
 	public MyPainter() {		
 		/*JFrame functions*/
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -93,14 +73,6 @@ public class MyPainter extends JFrame implements ActionListener {
 	}
 	
 	private JMenuBar CreateMenu() {
-=======
-	public MyPainter() {
-		log.info("MyPainter start >>>");
->>>>>>> 4737168... painter project initi
-=======
-	public MyPainter() {
-		log.info("MyPainter start >>>");
->>>>>>> 4737168... painter project initi
 		JMenuBar bar = new JMenuBar();
 		jMenu = new JMenu[menuBar.length];
 		for (i = 0; i < menuBar.length; i++) {
@@ -114,13 +86,7 @@ public class MyPainter extends JFrame implements ActionListener {
 			for (j = 0; j < menuItem[i].length; j++) {
 				if (i == 0 && j == 4 || i == 1 && j == 2)
 					jMenu[i].addSeparator();
-<<<<<<< HEAD
-<<<<<<< HEAD
 				log.info("add menu item {}", menuItem[i][j]);
-=======
->>>>>>> 4737168... painter project initi
-=======
->>>>>>> 4737168... painter project initi
 				jMenuItem[i][j] = new JMenuItem(menuItem[i][j].split("\\|")[0]);
 				if (menuItem[i][j].split("\\|").length != 1)
 					jMenuItem[i][j].setAccelerator(KeyStroke
@@ -131,25 +97,7 @@ public class MyPainter extends JFrame implements ActionListener {
 				jMenu[i].add(jMenuItem[i][j]);
 			}
 		}
-<<<<<<< HEAD
-<<<<<<< HEAD
 		return bar;
-=======
-=======
->>>>>>> 4737168... painter project initi
-
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 600, 600);
-
-		setJMenuBar(bar);
-		contentPane = new JPanel();
-		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
-		contentPane.setLayout(new BorderLayout(0, 0));
-		setContentPane(contentPane);
-<<<<<<< HEAD
->>>>>>> 4737168... painter project initi
-=======
->>>>>>> 4737168... painter project initi
 	}
 
 	@Override
