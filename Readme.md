@@ -11,4 +11,4 @@
 2. 使用BufferedImage畫圖
 3. 使用CircularQueue存座標
 
-![pic](https://github.com/JohnnyLChang/JavaPainter/blob/master/pic/painter-day1.png)
+[![Painter](https://i.ytimg.com/vi/LWeae-A8LCo/3.jpg?time=1510645846079)](https://www.youtube.com/watch?v=LWeae-A8LCo)
