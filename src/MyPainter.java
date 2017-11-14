@@ -58,7 +58,8 @@ public class MyPainter extends JFrame implements ActionListener {
 		this.setTitle("Java Painter");
 		setting = new MyPaintSetting();
 		this.add( new MyPaintPanel(setting), BorderLayout.CENTER );
-		this.add( new MyColorPanel(setting), BorderLayout.SOUTH);
+		this.add( new MyPanelTool(setting), BorderLayout.WEST);
+		this.add( new MyPanelColor(setting), BorderLayout.SOUTH);
 		
 	}
 	

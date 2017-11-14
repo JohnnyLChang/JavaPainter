@@ -8,7 +8,7 @@ import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JPanel;
 
-public class MyColorPanel extends JPanel implements ActionListener {
+public class MyPanelColor extends JPanel implements ActionListener {
 
 	class ColorButton extends JButton {
 
@@ -35,7 +35,7 @@ public class MyColorPanel extends JPanel implements ActionListener {
 
 	private MyPaintSetting setting;
 	
-	public MyColorPanel(MyPaintSetting setting) {
+	public MyPanelColor(MyPaintSetting setting) {
 		super(new GridLayout(2, 8, 5, 5));
 		chosed = null;
 		this.setting = setting;
